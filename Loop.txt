@@ -1,0 +1,89 @@
+Loop
+
+Something time loop
+ ? Ema proposed creating a roguelike sort of deal where there are small hard to spot changes, with those tiny changes being the solution			- Puzzle
+  sounds a lot like that game in the subway tunnels or blue prince
+   also would have to be generous with hints as players could easily miss some in that loop, causing softlocking if they dont repeat or get marked as seen somehow when the player looks at them
+
+physical loops?
+ thinking eulers strip or knots
+  ? Not sure of anything I could do with eulers strips
+
+? roller coasters?
+ I feel like this is a very well-worn game idea as I'm not sure what kind of twist I could put on it to make a good game that could be brief and new. 
+  Something about it reminds me of horror? I guess the fear of the roller coasters?
+   I think roller coasters would have to be the *setting* of the game, as all else has been done very well
+
+water cycle? nature?
+
+phoenix?
+
+programming loop?
+ I really dont want to make a game about code though. This is an idea but man I want to avoid CS as much as I can. Though it would definitely resonate with the audience of this game jam.
+
+Ice skating?
+ I imagine a game almost like spleef. Where your ice skates carve out chunks of ice when you make a circle.
+  The biggest issue I have with this idea is I have no idea *why* you would be doing this
+   Similar to spleef, having it be a pvp arcade game would be sick, though I am not about to do networking for a game jam.
+
+Aircraft?
+ The missles game on mobile comes to mind for looping here, though I cant think of how to shake this idea up right now
+
+Music / Movie looping?
+ Like a record for music or film for a movie
+
+Being in the loop
+ This phrase for some reason feels
+
+human lives / history?
+ ? I've been wanting a bit of a zoomed-out rts style vibe for a bit now, this could be a good idea for it. Maybe you have to create a civilization, but your biggest enemy is keeping population in check. Too much food and space and you'll have too many children. Too little of either and you end up with an elderly population.
+  Having the player keep track of the demographics of their cities population would add an interesting aspect to a city builder.
+   It could be problematic at the beginning, because you would be encouraged to hinder your growth to spread out the ages of your city better
+    Carleton gave the idea of the town being fed by a train, making managing the population even harder.
+
+
+
+
+  !! What if instead of a puzzle it was a horror game. The player is hiking through some spooky area and the small changes in the environment first hint at something else being there, but slowly progresses into hints on how to defeat the monster as danger and fear rises?
+   Would need a good balance of tension building before the monster is revealed, as well as giving hints on how to beat it.
+    Knowing how to beat the monster before you see it could make it less scary, but not being given enough hints that you *can* beat it could make it seem impossible and make people quit if they die.
+
+
+ !!* Could lean into fantasy and make the player a sort of dynasty of heros. Where you have to find / make relics or legendary weapons, then settle into a life to have children (though I think settling down would be the end)
+  After each life your children get the relics, but have to restart on skills.
+   Do this loop a few times chasing after some big goal until the character is powerful enough to beat it
+    Player would have to learn to judge their own power. Die and you completely restart (maybe have the relics scatter but stay more powerful than before)
+     I'm thinking of Aragorn from LOTR, and how he is the decendant of a semi-magical human dynasty with a special relic or two that enables him to finally be the king of Gondor that defeats Sauron
+      In a similar vain you could make allies for your family, that can aid in the final boss (eg. BG3)
+       Carleton has brought up that there could be issues integrating this into a game. 
+	I was thinking of doing something where the character has a very limited amount of time and the player has to choose what to spend that time on.
+	 Scope is also a problem.
+	  Though for the future, it could be cool if the "enemy" advanced between lives, so you have to balance getting more powerful and keeping the enemy at bay.
+
+
+ ! Could also do a protea / tracer / ekko time loop deal where you can rewind time (and need to do so to finish the encounter) but can only rewind so far
+  Im not sure whether this would be a puzzle, platformer, or combat game.
+   If its combat the rewind could be super brief and be treated almost like a parry
+   Or it could be longer but replay what your character did, so every action you took is repeated before you are given control back.
+    Would still need to be reasonably short because not being able to control your character wouldn't feel good for longer than a second or two
+
+
+! Obvious time loop idea is doing the same thing over and over in a rougelite vain, where its borderline impossible at first and slowly gets easier as you better understand the patterns and mechanics, as well as potentially get permanent upgrades.
+  This would need to be executed very carefully though, it needs to be able to be possible to start progressing early without snowballing into being super easy super fast.
+   This almost gives me a feeling like a soulslike boss rush where you get better through memorizing the boss patterns and abilities. I think that would work better than a tower defense game, which is what I first imagined in my head
+    Could honestly work in 2D or 3D. 2D would be similar to hollow knight while 3D could be like ultrakill or dark souls
+				
+   
+ ! I also think of t he word "Ouroboros" when thinking of a loop.
+  This idea could work in a bit of a factory sim?
+   Maybe machines have a certain set of outputs with more going out than in, and you need to create an infinite recursive loop of production?
+    lots of opportunity for different levels here, but I dont know how I could change up the gameplay much.
+     limiting machines, floor space, and loop layouts, while increasing complexity
+      Probably a 2d factory game
+
+
+ !! Climbing game with a knots minigame tying off a single loop of rope to climb up			- Platformer
+    Player tosses rope loop up to a hook on the cliff and climbs up - though this drops the knot idea for now
+     Unless players can cut the rope to briefly swing, and then have to retie the rope, changing its hitbox permanently
+     The permanent change in hitbox would have to have definitive consequence though, like it potentially getting stuck on hooks
+     Probably best in 2D, though initially I saw it as a kind of firewatch-esque design

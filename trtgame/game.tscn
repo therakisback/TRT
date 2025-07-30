@@ -1,0 +1,51 @@
+[gd_scene load_steps=10 format=3 uid="uid://bl8byphciabnd"]
+
+[ext_resource type="PackedScene" uid="uid://cupnu6xya4t8g" path="res://player.tscn" id="1_80nbo"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mwb40"]
+size = Vector3(100, 1, 100)
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_80nbo"]
+fractal_octaves = 4
+fractal_lacunarity = 5.0
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_80nbo"]
+noise = SubResource("FastNoiseLite_80nbo")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_80nbo"]
+albedo_color = Color(0.177206, 0.300184, 0.143459, 1)
+normal_enabled = true
+normal_texture = SubResource("NoiseTexture2D_80nbo")
+
+[sub_resource type="BoxMesh" id="BoxMesh_e2o6t"]
+material = SubResource("StandardMaterial3D_80nbo")
+size = Vector3(100, 1, 100)
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_feb5d"]
+
+[sub_resource type="Sky" id="Sky_fc0e3"]
+sky_material = SubResource("ProceduralSkyMaterial_feb5d")
+
+[sub_resource type="Environment" id="Environment_7jktm"]
+background_mode = 2
+sky = SubResource("Sky_fc0e3")
+ambient_light_color = Color(1, 1, 1, 1)
+
+[node name="Game" type="Node3D"]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("BoxShape3D_mwb40")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D/CollisionShape3D"]
+mesh = SubResource("BoxMesh_e2o6t")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_7jktm")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.542157, 0.78997, -0.286379, -0.0457126, 0.368038, 0.928686, 0.839033, -0.490403, 0.235646, 0, 16.7304, 0)
+
+[node name="Node3D" parent="." instance=ExtResource("1_80nbo")]
